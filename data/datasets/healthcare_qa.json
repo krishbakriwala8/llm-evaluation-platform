@@ -1,0 +1,32 @@
+[
+  {
+    "question": "What are the primary symptoms of type 2 diabetes?",
+    "answer": "Common symptoms include increased thirst, frequent urination, fatigue, blurred vision, and slow wound healing. Many people may have no symptoms initially.",
+    "context": "Type 2 diabetes develops when the body becomes resistant to insulin or doesn't produce enough. Typical symptoms include polydipsia (excessive thirst), polyuria (frequent urination), fatigue, blurred vision, slow healing of cuts or sores, and numbness in hands/feet. Some people are asymptomatic and discover diabetes during routine screening. Risk factors include obesity, family history, age over 45, and sedentary lifestyle.",
+    "metadata": {"category": "endocrinology", "difficulty": "beginner"}
+  },
+  {
+    "question": "How does the immune system fight infections?",
+    "answer": "The immune system uses white blood cells, antibodies, and other mechanisms to identify and destroy pathogens. It involves both innate immunity (immediate response) and adaptive immunity (specific response).",
+    "context": "The immune system has two main branches. The innate immune system provides immediate, non-specific defense using physical barriers, phagocytes, and inflammatory responses. The adaptive immune system provides specific, targeted responses through B cells (antibody production) and T cells (direct cell killing). When a pathogen enters, dendritic cells present antigens to T cells, triggering immune response. Memory cells remember the pathogen for faster future responses, which is the basis of vaccination.",
+    "metadata": {"category": "immunology", "difficulty": "intermediate"}
+  },
+  {
+    "question": "What is the role of the lymphatic system?",
+    "answer": "The lymphatic system drains excess fluid from tissues, transports immune cells, absorbs dietary fats, and plays a crucial role in fighting infections.",
+    "context": "The lymphatic system is a network of vessels and nodes working alongside the circulatory system. It collects lymph (fluid containing white blood cells) from tissues and returns it to the bloodstream. Lymph nodes filter lymph and trap pathogens and cancer cells. The spleen stores white blood cells and filters blood. The thymus produces T cells. This system is essential for immunity, preventing edema, and absorbing dietary fats from the intestines.",
+    "metadata": {"category": "immunology", "difficulty": "intermediate"}
+  },
+  {
+    "question": "Explain the concept of drug metabolism and bioavailability.",
+    "answer": "Drug metabolism is how the body processes drugs to make them inactive, primarily in the liver. Bioavailability is the fraction of an administered dose that reaches systemic circulation.",
+    "context": "Bioavailability (F) represents the percentage of an administered dose that reaches the systemic circulation in active form. Intravenous drugs have 100% bioavailability, while oral drugs may have lower bioavailability due to first-pass metabolism. Drug metabolism involves Phase I (oxidation/reduction), Phase II (conjugation), and Phase III (transport) reactions. The liver is the primary organ for drug metabolism through cytochrome P450 enzymes. Factors affecting metabolism include genetics, age, disease, and drug interactions.",
+    "metadata": {"category": "pharmacology", "difficulty": "advanced"}
+  },
+  {
+    "question": "What is the difference between DNA and RNA?",
+    "answer": "DNA is double-stranded with deoxyribose sugar and thymine, while RNA is single-stranded with ribose sugar and uracil. DNA stores genetic information; RNA translates it into proteins.",
+    "context": "DNA (deoxyribonucleic acid) and RNA (ribonucleic acid) are nucleic acids with structural differences. DNA has deoxyribose sugar, contains thymine, and is usually double-stranded. RNA has ribose sugar, contains uracil instead of thymine, and is typically single-stranded. DNA is the stable, long-term storage of genetic information, while RNA molecules (mRNA, tRNA, rRNA) are involved in protein synthesis. mRNA carries genetic code, tRNA brings amino acids, and rRNA is part of ribosomes.",
+    "metadata": {"category": "molecular_biology", "difficulty": "intermediate"}
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "question": "What is the difference between machine learning and deep learning?",
+    "answer": "Machine learning is a broad field enabling computers to learn from data. Deep learning is a subset using neural networks with multiple layers to learn hierarchical representations.",
+    "context": "Machine Learning (ML) is a subset of artificial intelligence where algorithms learn patterns from data without explicit programming. Deep Learning (DL) is a specialized branch of ML using artificial neural networks with multiple layers (hence 'deep'). Deep learning excels with unstructured data like images, text, and audio by learning hierarchical features. For example, a DL model for image recognition learns edges in early layers, shapes in middle layers, and objects in later layers. While traditional ML works well with structured data, DL requires more data and computational resources but often achieves better performance on complex tasks.",
+    "metadata": {"category": "artificial_intelligence", "difficulty": "intermediate"}
+  },
+  {
+    "question": "Explain how blockchain technology works.",
+    "answer": "Blockchain is a distributed ledger technology where transactions are grouped in blocks, cryptographically linked in a chain, and maintained by a decentralized network for transparency and security.",
+    "context": "Blockchain is a distributed database maintaining a continuously growing list of records called blocks. Each block contains a cryptographic hash of the previous block, timestamp, and transaction data, creating an immutable chain. The blockchain is maintained by a peer-to-peer network rather than a central authority. Consensus mechanisms (Proof of Work, Proof of Stake) validate transactions. Once data is recorded, it's extremely difficult to alter retroactively because changing one block would require recalculating all subsequent blocks. This makes blockchain suitable for cryptocurrencies, supply chain tracking, and smart contracts.",
+    "metadata": {"category": "cryptography", "difficulty": "intermediate"}
+  },
+  {
+    "question": "What are microservices and why are they beneficial?",
+    "answer": "Microservices are small, independent services performing specific business functions. They enable scalability, flexibility, and faster deployment compared to monolithic architectures.",
+    "context": "Microservices architecture breaks applications into small, loosely coupled services, each handling a specific business capability. Each service runs in its own process, uses its own database, and communicates via APIs. Benefits include independent deployment, technology flexibility, easier scaling of specific services, improved fault isolation, and faster development. However, microservices introduce complexity in distributed systems, requiring robust monitoring, logging, and inter-service communication patterns. Popular patterns include API gateways, service discovery, circuit breakers, and message queues.",
+    "metadata": {"category": "software_architecture", "difficulty": "advanced"}
+  },
+  {
+    "question": "What is the purpose of containerization in DevOps?",
+    "answer": "Containerization packages applications with dependencies in isolated environments, ensuring consistency across development, testing, and production, improving deployment reliability.",
+    "context": "Containers use OS-level virtualization to package applications with their dependencies (libraries, runtime) in isolated, lightweight environments. Docker is the most popular containerization platform. Containers are smaller and faster than VMs, starting in milliseconds. They ensure 'it works on my machine' problems are eliminated because the container runs identically everywhere. Container orchestration platforms like Kubernetes manage deployment, scaling, and networking of containers. This is fundamental to modern DevOps and cloud-native development.",
+    "metadata": {"category": "devops", "difficulty": "intermediate"}
+  },
+  {
+    "question": "Explain the concept of API rate limiting.",
+    "answer": "API rate limiting controls the number of requests clients can make in a time period, preventing abuse, ensuring fair usage, and protecting server resources.",
+    "context": "Rate limiting restricts the number of API requests a client can make within a specified time window (e.g., 1000 requests per hour). It prevents abuse, DDoS attacks, ensures fair resource distribution, and maintains API stability. Common strategies include token bucket algorithm, sliding window, and leaky bucket. Rate limits should be communicated via HTTP headers (X-RateLimit-Limit, X-RateLimit-Remaining). Exceeding limits typically returns HTTP 429 (Too Many Requests). Authenticated users often have higher limits than anonymous users.",
+    "metadata": {"category": "api_design", "difficulty": "intermediate"}
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "question": "What is the difference between stocks and bonds?",
+    "answer": "Stocks represent ownership in a company, while bonds are debt instruments. Stocks offer higher potential returns but greater risk, while bonds provide fixed income with lower risk.",
+    "context": "Stocks represent fractional ownership in a corporation. When you buy a stock, you become a shareholder and own a piece of the company. Bonds are fixed-income securities where an investor loans money to a borrower (corporate or government) for a set period and interest rate. Stocks are riskier but offer higher growth potential, while bonds provide regular interest payments and are generally considered safer.",
+    "metadata": {"category": "investments", "difficulty": "beginner"}
+  },
+  {
+    "question": "Explain compound interest and its importance in investing.",
+    "answer": "Compound interest is earning interest on both the principal and previously earned interest. It's crucial for investing because it creates exponential growth over time, allowing wealth to multiply significantly.",
+    "context": "Compound interest is the interest earned on both the original principal and accumulated interest from previous periods. Albert Einstein allegedly called it 'the eighth wonder of the world.' For example, if you invest $1000 at 5% annual compound interest, after 10 years you'll have $1629, not $1500. This accelerates wealth building over long periods. The formula is A = P(1 + r/n)^(nt). For long-term investors, compound interest is the most powerful wealth-building tool.",
+    "metadata": {"category": "wealth_building", "difficulty": "intermediate"}
+  },
+  {
+    "question": "What are the main components of a balance sheet?",
+    "answer": "A balance sheet has three main components: assets (what the company owns), liabilities (what it owes), and shareholders' equity (owner's stake). The fundamental equation is: Assets = Liabilities + Equity.",
+    "context": "The balance sheet is a financial statement showing a company's financial position at a specific date. Assets are resources the company owns and controls (cash, inventory, property). Liabilities are obligations or debts (loans, accounts payable). Shareholders' equity represents the owners' claim on assets after liabilities are paid. The balance sheet always balances: Total Assets = Total Liabilities + Shareholders' Equity. This is the accounting fundamental principle.",
+    "metadata": {"category": "accounting", "difficulty": "intermediate"}
+  },
+  {
+    "question": "What is diversification and why is it important?",
+    "answer": "Diversification is spreading investments across different asset classes and sectors to reduce risk. It's important because it prevents losses in one investment from devastating the entire portfolio.",
+    "context": "Diversification means not putting all eggs in one basket. By investing in various stocks, bonds, real estate, and commodities, an investor reduces idiosyncratic (company-specific) risk. While systematic market risk cannot be eliminated, diversification helps manage unsystematic risk. A well-diversified portfolio might include 60% stocks, 30% bonds, and 10% alternatives. The key principle is that different assets move differently under various market conditions, providing protection.",
+    "metadata": {"category": "risk_management", "difficulty": "intermediate"}
+  },
+  {
+    "question": "Explain what quantitative easing is.",
+    "answer": "Quantitative easing (QE) is when central banks buy financial assets to increase money supply and lower interest rates, stimulating economic growth during recessions.",
+    "context": "Quantitative easing is an unconventional monetary policy tool used when traditional interest rate cuts are ineffective (near zero percent). The central bank purchases large quantities of government bonds and other securities to inject money into the economy. This increases the money supply, lowers long-term interest rates, and encourages borrowing and spending. QE was extensively used after the 2008 financial crisis and during the COVID-19 pandemic.",
+    "metadata": {"category": "monetary_policy", "difficulty": "advanced"}
+  }
+]
